@@ -1,17 +1,37 @@
-#root {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-  
+.titleInicio {
+  justify-self: center;
+  color: azure;
 }
-
+.parrafo{
+  display: flex;
+  justify-content: center;
+}
 .card {
   padding: 2em;
 }
-h2{
+h2 {
   color: aliceblue;
+  margin: 4%;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+  font-size: 18;
+}
+@media screen and (min-device-width: 300px) and (max-device-width: 600px) {
+  h1{
+   display: flex;
+    font-size: 1.2em;
+  }
+  textarea {
+    width: 300px;
+  }
+  .titleInicio {
+    padding: 1%;
+    font-size: 1.3;
+  }
+  .card {   
+    padding: auto;
+  }
 }
